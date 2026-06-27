@@ -14,7 +14,7 @@ import styles from "./invoices.module.css";
 
 const KYLAS_PRODUCTS = [
   { value: "prod_crm_ent", label: "Kylas CRM Premium Enterprise License" },
-  { value: "prod_iot_node", label: "Smart Home IoT Sensor Node (AsmitA Hub)" },
+  { value: "prod_iot_node", label: "Smart Home IoT Sensor Node ( Hub)" },
   { value: "prod_bbps_gw", label: "BBPS Settlement Core Gateway API" },
   { value: "prod_devops_supp", label: "Dedicated Cloud DevOps Maintenance Hours" }
 ];
@@ -106,7 +106,7 @@ const INITIAL_DEFAULT_LAYOUT = [
         columnId: "col_f1",
         width: 100,
         widgets: [
-          { widgetId: "w_f1", type: "footer", text: "Thank you for partnering with AsmitA Operations Portal Core Network.\nSystem dispatched document. No physical signature required baseline." }
+          { widgetId: "w_f1", type: "footer", text: "Thank you for partnering with  Operations Portal Core Network.\nSystem dispatched document. No physical signature required baseline." }
         ]
       }
     ]

@@ -1,0 +1,42 @@
+.card {
+  max-width: 720px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.profileInfo {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.infoItem:last-child {
+  border-bottom: none;
+}
+
+.infoItem span {
+  color: #4b5563;
+}
+
+.button {
+  font: inherit;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+}

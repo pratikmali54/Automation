@@ -12,11 +12,11 @@ export const authOptions = {
       async authorize(credentials) {
         // Phase 1: Hardcoded secure bypass for UI development.
         // Phase 2: We will replace this with a Prisma lookup against your MySQL 'User' table.
-        if (credentials.email === "admin@asmita.com" && credentials.password === "secure123") {
+        if (credentials.email === "admin@.com" && credentials.password === "secure123") {
           return { 
             id: "1", 
-            name: "AsmitA Administrator", 
-            email: "admin@asmita.com", 
+            name: " Administrator", 
+            email: "admin@.com", 
             role: "SUPER_ADMIN" 
           };
         }

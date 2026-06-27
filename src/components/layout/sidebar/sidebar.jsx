@@ -22,7 +22,7 @@ export default function Sidebar({ activeId }) {
         <div className={styles.storeProfile}>
           <div className={styles.storeAvatar}>A</div>
           <div className={styles.storeDetails}>
-            <span className={styles.storeName}>AsmitA Operations</span>
+            <span className={styles.storeName}> Operations</span>
             <span className={styles.storeLink}>Admin Console</span>
           </div>
         </div>

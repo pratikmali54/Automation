@@ -1,10 +1,10 @@
 import Sidebar from '@/components/layout/sidebar/sidebar';
-import styles from '../email-test/page.module.css'; // Reusing styles
+import styles from './page.module.css';
 
-export default function ProfileLayout({ children }) {
+export default function EmailTestLayout({ children }) {
   return (
     <div className={styles.layout}>
-      <Sidebar />
+      <Sidebar activeId="workflows" />
       <main className={styles.main}>{children}</main>
     </div>
   );
